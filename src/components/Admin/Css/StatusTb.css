@@ -1,0 +1,52 @@
+/* Custom styles to decrease table size */
+
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.select-container {
+  display: flex;
+
+}
+
+.custom-table,
+.detailed-table {
+  width: 100%; /* Make tables responsive */
+  max-width: 800px; /* Set a max width for larger screens */
+}
+
+
+
+.custom-table .ant-table {
+    width: 100%; /* Full width of the container */
+    max-width: 600px; /* Maximum width of the table */
+    margin: auto; /* Center the table */
+}
+
+.custom-table .ant-table-cell {
+    padding: 1px; /* Adjust padding */
+    
+}
+
+.custom-table .ant-table-header {
+    font-size: 10px; /* Adjust font size of headers */
+}
+
+.custom-table .ant-table-thead > tr > th,
+.custom-table .ant-table-tbody > tr > td {
+    line-height: 6px; /* Adjust line height */
+    padding: 8px; /* Adjust padding for headers and cells */
+}
+
+.custom-table .ant-table-column {
+    width: 90px; /* Adjust column width */
+}
+
+.custom-table {
+    max-height: 400px; /* Set a maximum height for the table */
+   
+}

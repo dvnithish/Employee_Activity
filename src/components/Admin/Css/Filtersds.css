@@ -1,0 +1,40 @@
+/* Assuming this is in your CSS file, e.g., StatusTb.css */
+
+/* Align items vertically centered and prevent overflow */
+.kkk {
+  overflow: hidden; 
+  display: flex;
+  align-items: center; /* Align items vertically centered */
+  white-space: nowrap; 
+}
+
+/* Adjust the placeholder font size in select component */
+.pyt .ant-select-selection-placeholder {
+  font-size: 10px; /* Adjust the placeholder font size */
+}
+
+/* Adjust the dropdown menu's appearance */
+.pyt .ant-select-dropdown {
+  .ant-select-item {
+    font-size: 10px; /* Adjust item font size */
+    padding: 2px 4px; /* Adjust padding to reduce the space between items */
+  }
+
+  /* Additional styling for item hover and active states, if needed */
+  .ant-select-item-option {
+    padding: 2px 4px; /* Ensure consistent spacing */
+  }
+
+  /* Remove any margins if present to reduce gaps */
+  .ant-select-item-option-content {
+    margin: 0;
+  }
+}
+
+/* Adjust the width and height of the dropdown and placeholder */
+.pyt .ant-select-selection-overflow {
+  height: 22px; /* Set a fixed height */
+  width: 35px; /* Set a fixed width */
+  white-space: nowrap; 
+  overflow: hidden; /* Ensure no overflow */
+}

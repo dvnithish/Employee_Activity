@@ -1,0 +1,58 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+  margin-bottom: 1rem; /* Spacing below buttons */
+}
+
+.filter-button {
+  font-size: 10px; /* Adjust font size */
+  padding: 2px 6px; /* Adjust padding */
+  margin-right: 5px; /* Spacing between buttons */
+  transition: background-color 0.3s;
+}
+
+.filter-button.active {
+  background-color: #6ECB5A; /* Green for active */
+  color: white;
+}
+
+.filter-button.inactive {
+  background-color: #f5222d; /* Red for inactive */
+  color: white;
+}
+
+.filter-button.offline {
+  background-color: #8c8c8c; /* Gray for offline */
+  color: white;
+}
+
+.filter-button.all {
+  background-color: #4096ff; /* Blue for all */
+  color: white;
+}
+
+.virtual-list-container {
+  flex: 1; /* Take available space */
+  overflow: auto; /* Enable scrolling */
+}
+
+.status-table-container {
+  margin-top: 3px; /* Space above status table */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .button-container {
+    flex-direction: row; /* Stack buttons vertically on small screens */
+  }
+
+  .filter-button {
+    margin-bottom: 3px; /* Spacing between stacked buttons */
+  }
+}

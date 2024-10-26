@@ -1,0 +1,94 @@
+/* src/Productive.css */
+.row-container {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  padding: 20px 0; /* Add some vertical padding */
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.ant-select {
+  font-size: 16px; /* Default font size */
+}
+
+@media (max-width: 768px) {
+  .row-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns on mobile */
+    gap: 10px; /* Space between grid items */
+  }
+
+  .ant-select,
+  .ant-picker,
+  .ant-btn {
+    width: 100%; /* Full width for each item in the grid */
+  }
+}
+
+@media (max-width: 480px) {
+  .ant-select,
+  .ant-picker,
+  .ant-btn {
+    font-size: 10px; /* Further decrease font size for very small screens */
+  }
+}
+/* styles.css */
+.responsive-table-container {
+  margin-top: 20px;
+  max-height: 60vh;
+  width: 25%;
+  min-width: 20%;
+  overflow: hidden; /* Prevent scrolling on the container */
+  overflow-y: auto; /* Correctly allow vertical scrolling */
+}
+@media (max-width: 768px) {
+  .responsive-table-container {
+    width: 100% !important; /* Full width on mobile */
+  }
+}
+.productive-container {
+  padding: 20px;
+  max-width: 1200px; /* Limit the maximum width of the container */
+  margin: 0 auto; /* Center the container */
+}
+
+.row-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Space between inputs */
+  margin-bottom: 20px;
+}
+
+.responsive-table-container {
+  margin: 0 10px; /* Margin on the sides for the table */
+  
+}
+
+table {
+  width: 100%; /* Make tables take the full width of their container */
+  border-collapse: collapse;
+}
+
+.ant-table {
+  overflow-x: auto; /* Enable horizontal scroll if the table is too wide */
+}
+
+.ant-table th, .ant-table td {
+  text-align: left; /* Align text to the left */
+  padding: 10px; /* Add padding for better spacing */
+}
+
+.ant-modal {
+  max-width: 90%; /* Limit the modal width */
+  width: 800px; /* Set a fixed width for the modal */
+}
+
+@media (max-width: 768px) {
+  .responsive-table-container {
+    margin: 0 5px; /* Reduce side margins on smaller screens */
+  }
+}
+.highlight-row {
+  background-color: #00aeff; /* Light blue highlight */
+}
+
+

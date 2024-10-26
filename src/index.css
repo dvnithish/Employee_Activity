@@ -1,0 +1,82 @@
+
+
+.login-form {
+  max-width: 400px; /* Increase the max width */
+  width: 100%;
+  padding: px; /* Increase the padding */
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px; /* Increase border radius */
+}
+
+.login-form .ant-input,
+.login-form .ant-input-affix-wrapper,
+.login-form .ant-checkbox + span {
+  font-size: 14px; /* Increase font size */
+  padding: 10px; /* Increase padding */
+}
+
+.login-form .ant-btn {
+  font-size: 16px; /* Increase font size */
+  padding: 12px 0; /* Increase padding */
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+
+
+
+
+/* src/RegistrationPage.css */
+
+/* Center the form on the page */
+.registration-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the form labels */
+.registration-form .ant-form-item-label > label {
+  font-weight: bold;
+}
+
+/* Add some space between form items */
+.registration-form .ant-form-item {
+  margin-bottom: 20px;
+}
+
+/* Style the input fields */
+.registration-form .ant-input,
+.registration-form .ant-input-password,
+.registration-form .ant-select {
+  width: 100%;
+}
+
+/* Style the submit button */
+.registration-form .ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+
+/* Style the checkbox */
+.registration-form .ant-checkbox {
+  margin-right: 8px;
+}
+
+/* Add some space around the checkbox label */
+.registration-form .ant-checkbox-wrapper {
+  margin-left: 8px;
+}
+
+/* Style the link inside the checkbox */
+.registration-form .ant-checkbox a {
+  color: #1890ff;
+  text-decoration: none;
+}
+
+.registration-form .ant-checkbox a:hover {
+  text-decoration: underline;
+}

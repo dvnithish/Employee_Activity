@@ -1,0 +1,35 @@
+/* Sidebar background color */
+.ant-layout-sider {
+  background-color: white;
+}
+.ant-layout{
+  background-color:white;
+
+}
+
+.site-layout-background{
+  background-color:white;
+
+}
+
+/* Menu item text color */
+.ant-menu-item a {
+  color: white; /* Default text color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Menu item hover state */
+.ant-menu-item:hover {
+  background-color: #368ef4d3; /* Change the background color on hover */
+}
+
+/* Menu item active state */
+.ant-menu-item.ant-menu-item-selected {
+  background-color: #2d6dee; /* Keep the background color consistent with sidebar */
+}
+
+/* Ensure text color does not change on active state */
+.ant-menu-item.ant-menu-item-selected a {
+  color: #f37370; /* Set a color for active item text */
+  text-decoration: none; /* Ensure underline is removed when selected */
+}

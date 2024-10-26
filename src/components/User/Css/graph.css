@@ -1,0 +1,12 @@
+/* GraphPlotting.css */
+
+.graph-plotting-container {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 20px;
+  }
+  

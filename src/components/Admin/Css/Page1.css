@@ -1,0 +1,59 @@
+.main{
+  margin-top: -4%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 10fr 3fr; /* Two equal columns */
+  gap: 2px; /* Space between columns */
+}
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Stack items in a single column */
+  }
+}
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Stack items in a single column */
+  }
+}
+
+
+.main {
+  @apply flex flex-col items-center p-4;
+}
+
+.dropdown {
+  @apply w-full mb-4;
+}
+
+.dropdown .ant-card {
+  @apply flex flex-wrap justify-between items-center;
+}
+
+.custom-dropdown1 {
+  @apply w-full sm:w-auto;
+}
+
+.main-card {
+  @apply w-full md:w-3/4 p-2; /* Occupy 75% on medium screens and larger */
+}
+
+.statustb {
+  @apply w-full md:w-1/4 p-2; /* Occupy 25% on medium screens and larger */
+}
+
+.BAR {
+  @apply w-full p-2; /* Responsive for the BAR section */
+}
+
+@media (max-width: 768px) {
+  .custom-dropdown1 {
+      @apply mb-2; /* Margin for small screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .dropdown .ant-card {
+      @apply flex-row; /* Horizontal layout on larger screens */
+  }
+}

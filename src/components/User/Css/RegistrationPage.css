@@ -1,0 +1,119 @@
+/* src/components/RegistrationPage.css */
+
+/* Styles for the form container */
+.ant-form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px; /* Rounded corners */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  /* Style for form items */
+  .ant-form-item {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style for form item labels */
+  .ant-form-item-label {
+    padding: 0; 
+    display: flex;
+    /* Remove default padding */
+  }
+  
+  .ant-form-item-label > label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5; /* Ensure consistent label height */
+  }
+  
+  /* Style for input fields */
+  .ant-input,
+  .ant-input-password,
+  .ant-input-number,
+  .ant-select-selector {
+    border-radius: 4px; /* Rounded corners for input fields */
+    box-shadow: none;
+    padding: 10px 28px; /* Reduced padding */
+    font-size: 14px; /* Smaller font size */
+    width: 100%; /* Ensure input fields take full width */
+  }
+  
+  /* Style for select fields */
+  .ant-select {
+    border-radius: 4px; /* Rounded corners for select fields */
+    padding: 8px 12px; /* Reduced padding */
+    font-size: 14px; /* Smaller font size */
+  }
+  
+  /* Style for select dropdown */
+  .ant-select-selector {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for buttons */
+  .ant-btn-primary {
+    background-color: #1890ff;
+    border-color: #1890ff;
+    border-radius: 4px; /* Rounded corners for buttons */
+  }
+  
+  .ant-btn-primary:hover,
+  .ant-btn-primary:focus {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+  }
+  
+  /* Style for checkbox */
+  .ant-checkbox-wrapper {
+    font-size: 14px;
+  }
+  
+  /* Style for links */
+  a {
+    color: #1890ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for the phone number prefix selector */
+  .ant-form-item .ant-select-selector {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  /* Ensure labels and inputs align */
+  .ant-form-item-label > label,
+  .ant-form-item-control {
+    display: block;
+  }
+  
+  /* Style for input boxes to ensure they are not too large */
+  .ant-input,
+  .ant-input-password,
+  .ant-input-number,
+  .ant-select-selector {
+    width: 100%; /* Ensure full width of input boxes */
+  }
+  
+  /* Style for the "Already have an account? Back to Login" link */
+  .back-to-login {
+    text-align: left; /* Align text to the left */
+    margin-top: 10px; /* Adjust top margin as needed */
+    font-size: 14px; /* Optionally adjust font size */
+    color: #666; /* Optionally adjust color */
+  }
+  
+  .back-to-login a {
+    margin-left: 5px; /* Add left margin to separate the link from the text */
+  }
+  
